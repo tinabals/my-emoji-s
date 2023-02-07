@@ -1,13 +1,13 @@
-html{
-    height:100vh;
-    
-    
-}
 
+html{
+    height: 100vh;
+}
 body{
     background: radial-gradient(circle at 10% 20%, rgb(0, 102, 161) 0%, rgb(0, 68, 108) 90.1%);
     font-family: Baloo;
     padding:10px;
+    background-size: cover;
+    
 }
 
 
@@ -28,23 +28,23 @@ input{
 button{
     font-family: inherit;
     padding: 4px 10px;
-    margin:10px 10px;
+    margin:20px 10px;
     display:block;
     color:#3186b2;
     background: #fcfcfc; ;
     border: 1px solid #fcfcfc; ;
     border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background: #faeee1;
+    border:1px solid #5d31b2;
 }
 
 
 .container{
     text-align: center;
-    border:1px solid yellow;
-    margin:200px auto;
     padding: 10px 25px;
 }
 
@@ -52,9 +52,13 @@ button{
     margin: 40px;
     text-align: center;
 }
+#emoji-container span {
+    margin: 10px;
+    font-size: 40px;
+}
 
 #input-emoji{
-    margin:0 auto;
+    margin:20px auto;
 }
 .buttons-wrapper{
     display: flex;
